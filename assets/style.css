@@ -142,16 +142,13 @@ input[type=submit]:hover {
 @media screen and (max-width:640px) {
     /* For mobile phones: */
    .header h1 {
+       display: block; 
        width:100%;
    }
    .nav {
-    display: block;
-    width:100%;
-  }
-  .nav li {
-    display: block; 
-    width:100%;
-  }
+       display: block;
+   }
+
 }
 
 
